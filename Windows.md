@@ -20,6 +20,8 @@ winget install --id Microsoft.Powershell --source winget
 Set-ExecutionPolicy Bypass -Scope Process
 ```
 ```
+$InstallDir='D:/Archivos de programa'
+$env:ChocolateyInstall="$InstallDir"
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
@@ -42,5 +44,10 @@ wsl --set-default-version 2
 wsl --install
 ```
 
-Instalar Docker
+> Instalar Docker
 
+> Intalar Fuentes | [Mas Info](https://msfn.org/board/topic/28300-installing-fonts-temporarly/#comment-194037)
+```
+copy "FontName.ttf" "%WINDIR%\Fonts"
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "FontName (TrueType)" /t REG_SZ /d FontName.ttf /f
+```
