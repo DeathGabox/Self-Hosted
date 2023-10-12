@@ -59,6 +59,12 @@ msiexec.exe /i "D:\Archivos de programa\Instaladores\Firefox-esr.msi" RunInstall
 choco install microsoft-windows-terminal --pre --install-arguments="'/DIR=D:\Archivos de programa\'" -y
 ```
 
+> Probar [Screentogif](https://www.screentogif.com/)
+```
+choco install screentogif
+```
+
+
 > Activar WSL
 ```
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
