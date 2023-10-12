@@ -44,7 +44,7 @@ curl https://raw.githubusercontent.com/chocolatey/choco/0.10.15/src/chocolatey.r
 ---
 > Instalar programas con Choco
 ```
-choco install aria2 micro curl -y
+choco install aria2 micro curl --install-arguments="'/DIR=D:\Archivos de programa\Choco\bin'" -y
 ```
 
 ---
@@ -52,23 +52,27 @@ choco install aria2 micro curl -y
 ```
 aria2c -s16 -x16 "https://download.mozilla.org/?product=firefox-esr-msi-latest-ssl&os=win64&lang=es-CL" --dir="D:/Archivos de programa\Instaladores" --out=Firefox-esr.msi
 ```
+> Ejecutar en CMD (Powershell simplemente no lo reconoce)
 ```
-msiexec.exe /i "D:\Archivos de programa\Instaladores\Firefox-esr.msi" RunInstallDirPath=`"D:\Archivos de programa\Mozilla Firefox\`" INSTALL_DIRECTORY_PATH=`"D:\Archivos de programa\Mozilla Firefox\`" TASKBAR_SHORTCUT=false DESKTOP_SHORTCUT=false INSTALL_MAINTENANCE_SERVICE=false /quiet
+msiexec.exe -i "D:\Archivos de programa\Instaladores\Firefox-esr.msi" RunInstallDirPath="D:\Archivos de programa\Mozilla Firefox\" INSTALL_DIRECTORY_PATH="D:\Archivos de programa\Mozilla Firefox\" TASKBAR_SHORTCUT=false DESKTOP_SHORTCUT=false INSTALL_MAINTENANCE_SERVICE=false /quiet
 ```
 
 ---
 > Intalar Windows Terminal
 ```
-choco install microsoft-windows-terminal --pre --install-arguments="'/DIR=D:\Archivos de programa\'" -y
+choco install microsoft-windows-terminal --pre --install-arguments="'/DIR=D:\Archivos de programa\Choco\bin'" -y
 ```
 
 > Probar [Screentogif](https://www.screentogif.com/)
 ```
-choco install screentogif
+choco install screentogif --install-arguments="'/DIR=D:\Archivos de programa\Choco\bin'" -y
 ```
 
 
 > Activar WSL
+```
+choco install wsl2 --install-arguments="'/DIR=D:\Archivos de programa\Choco\bin'" -y
+```
 ```
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
