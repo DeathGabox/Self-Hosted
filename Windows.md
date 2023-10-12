@@ -34,6 +34,9 @@ $env:ChocolateyInstall="$InstallDir"
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
+---
+> Recuerda Reiniciar Powershell o sino fallara al continuar
+---
 ```
 curl https://raw.githubusercontent.com/chocolatey/choco/0.10.15/src/chocolatey.resources/redirects/RefreshEnv.cmd -o "D:\Archivos de programa\Choco\RefreshEnv.cmd"
 ```
