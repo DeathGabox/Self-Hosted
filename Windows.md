@@ -1,10 +1,16 @@
 >> Bueno, vamos a hacer lo mejor posible para que esto se haga bn en un solo script
 
->> Se usara todo en el Disco `D:` para que se mantenga la instalacion 
+>> Se usara todo en el Disco `D:` para que se mantenga la instalacion
+>>
+>> Que tal agregar el PATH ENV de Choco Al Iniciar??
+>> Y el PATH de Firefox
 ---
 > Crear Carpetas
 ```
 mkdir -p "D:/Archivos de programa\Instaladores"
+```
+```
+mkdir -p "D:/Archivos de programa\Powershell"
 ```
 
 Instalar Powershell
@@ -16,8 +22,8 @@ winget install --id Microsoft.Powershell --source winget
 ---
 > Desinstalar Choco (En caso de que no reconosca los comandos al reiniciar)
 ```
-rm -R C:\ProgramData\chocolatey
-rm -R "D:\Archivos de programa\Choco"
+rm -Recurse -Force C:\ProgramData\chocolatey
+rm -Recurse -Force "D:\Archivos de programa\Choco"
 ```
 
 ---
@@ -52,11 +58,17 @@ choco install aria2 micro curl --install-arguments="'/DIR=D:\Archivos de program
 ```
 aria2c -s16 -x16 "https://download.mozilla.org/?product=firefox-esr-msi-latest-ssl&os=win64&lang=es-CL" --dir="D:/Archivos de programa\Instaladores" --out=Firefox-esr.msi
 ```
-> Ejecutar en CMD (Powershell simplemente no lo reconoce)
+> Ejecutar cmd.exe
+```
+cmd.exe
+```
 ```
 msiexec.exe -i "D:\Archivos de programa\Instaladores\Firefox-esr.msi" RunInstallDirPath="D:\Archivos de programa\Mozilla Firefox\" INSTALL_DIRECTORY_PATH="D:\Archivos de programa\Mozilla Firefox\" TASKBAR_SHORTCUT=false DESKTOP_SHORTCUT=false INSTALL_MAINTENANCE_SERVICE=false /quiet
 ```
-
+> Salir del modo CMD
+```
+exit
+```
 ---
 > Intalar Windows Terminal
 ```
