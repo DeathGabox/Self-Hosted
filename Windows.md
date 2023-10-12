@@ -72,7 +72,7 @@ exit
 ---
 > Intalar Windows Terminal
 ```
-choco install microsoft-windows-terminal --pre --install-arguments="'/DIR=D:\Archivos de programa\Choco\bin'" -y
+choco install microsoft-windows-terminal --install-arguments="'/DIR=D:\Archivos de programa\Choco\bin'" -y
 ```
 
 > Probar [Screentogif](https://www.screentogif.com/)
@@ -80,24 +80,13 @@ choco install microsoft-windows-terminal --pre --install-arguments="'/DIR=D:\Arc
 choco install screentogif --install-arguments="'/DIR=D:\Archivos de programa\Choco\bin'" -y
 ```
 
-
-> Activar WSL
+> Add Path
 ```
-choco install wsl2 --install-arguments="'/DIR=D:\Archivos de programa\Choco\bin'" -y
+$addPath = 'D:\Archivos de programa\Choco\bin'
+$addPath = 'D:\Archivos de programa\Powershell\7\'
+$addPath = 'D:\Archivos de programa\Mozilla Firefox\'
+$addPath = 'D:\Archivos de programa\Choco\bin\Terminal'
 ```
-```
-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-```
-> Activar el Funcionamiento
-```
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-```
-```
-wsl --set-default-version 2
-wsl --install
-```
-
-> Instalar Docker
 
 > Intalar Fuentes | [Mas Info](https://msfn.org/board/topic/28300-installing-fonts-temporarly/#comment-194037)
 ```
