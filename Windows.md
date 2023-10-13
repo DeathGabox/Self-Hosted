@@ -43,14 +43,10 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ---
 > Recuerda Reiniciar Powershell o sino fallara al continuar
 ---
-```
-curl https://raw.githubusercontent.com/chocolatey/choco/0.10.15/src/chocolatey.resources/redirects/RefreshEnv.cmd -o "D:\Archivos de programa\Choco\RefreshEnv.cmd"
-```
-
 ---
 > Instalar programas con Choco
 ```
-choco install aria2 micro curl microsoft-windows-terminal --install-arguments="'/DIR=D:\Archivos de programa\Choco\bin'" -y
+choco install aria2 micro curl wget microsoft-windows-terminal --install-arguments="'/DIR=D:\Archivos de programa\Choco\bin'" -y
 ```
 
 ---
