@@ -50,7 +50,7 @@ curl https://raw.githubusercontent.com/chocolatey/choco/0.10.15/src/chocolatey.r
 ---
 > Instalar programas con Choco
 ```
-choco install aria2 micro curl --install-arguments="'/DIR=D:\Archivos de programa\Choco\bin'" -y
+choco install aria2 micro curl microsoft-windows-terminal --install-arguments="'/DIR=D:\Archivos de programa\Choco\bin'" -y
 ```
 
 ---
@@ -72,7 +72,7 @@ exit
 ---
 > Intalar Windows Terminal
 ```
-choco install microsoft-windows-terminal --install-arguments="'/DIR=D:\Archivos de programa\Choco\bin'" -y
+NEED MORE INFO
 ```
 
 > Probar [Screentogif](https://www.screentogif.com/)
