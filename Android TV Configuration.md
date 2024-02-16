@@ -38,76 +38,78 @@ TV Launcher (Stupids Ads) -> `com.google.android.tvlauncher`
 
 Why you want a Camera?? -> `com.android.camera2`
 
-Xiaomi Music Player -> com.google.android.music
+Xiaomi Music Player -> `com.google.android.music`
 
-Xiaomi Video Player -> com.google.android.videos
+Xiaomi Video Player -> `com.google.android.videos`
 
-Teclado en Latin -> com.google.android.inputmethod.latin
+Teclado en Latin -> `com.google.android.inputmethod.latin`
 
-Input japones -> com.google.android.inputmethod.japanese
+Input japones -> `com.google.android.inputmethod.japanese`
 
-Google App -> com.google.android.katniss
+Google App -> `com.google.android.katniss`
 
-Calendar -> com.android.providers.calendar
+Calendar -> `com.android.providers.calendar`
 
-Contacts -> com.android.providers.contacts
+Contacts -> `com.android.providers.contacts`
 
-Dictionary -> com.android.providers.userdictionary
+Dictionary -> `com.android.providers.userdictionary`
 
-Feedback -> com.google.android.feedback
+Feedback -> `com.google.android.feedback`
 
-tts -> com.google.android.tts
+tts -> `com.google.android.tts`
 
-TalkBack -> com.google.android.marvin.talkback
+TalkBack -> `com.google.android.marvin.talkback`
 
-Partnersetup -> com.google.android.partnersetup
+Partnersetup -> `com.google.android.partnersetup`
 
-Speech -> com.google.android.speech.pumpkin
+Speech -> `com.google.android.speech.pumpkin`
 
-Sync Calendar -> com.google.android.syncadapters.calendar
+Sync Calendar -> `com.google.android.syncadapters.calendar`
 
-Sync Contacts -> com.google.android.syncadapters.contacts
+Sync Contacts -> `com.google.android.syncadapters.contacts`
 
-Bug sender -> com.google.android.tv.bugreportsender
+Bug sender -> `com.google.android.tv.bugreportsender`
 
-Search for printers -> com.android.printspooler
+Search for printers -> `com.android.printspooler`
 
-HTML Viewer -> com.android.htmlviewer
+HTML Viewer -> `com.android.htmlviewer`
 
-Youtube -> com.google.android.youtube.tv
+Youtube -> `com.google.android.youtube.tv`
 
-Youtube Music -> com.google.android.youtube.tvmusic
+Youtube Music -> `com.google.android.youtube.tvmusic`
 
-TV Channels (Thanks god) -> com.google.android.tv
+TV Channels (Thanks god) -> `com.google.android.tv`
 
-TV Bloatware -> com.google.android.tvrecommendations
+TV Bloatware -> `com.google.android.tvrecommendations`
 
-Google Play Games -> com.google.android.play.games
+Google Play Games -> `com.google.android.play.games`
 
-Xiaomi TvBox Launcher i guess -> com.mitv.tvhome.atv
+Xiaomi TvBox Launcher i guess -> `com.mitv.tvhome.atv`
 
-Xiaomi Updates -> com.xiaomi.mitv.updateservice
+Xiaomi Updates -> `com.xiaomi.mitv.updateservice`
 
-Crapware -> tv.alphonso.alphonso_eula
+Crapware -> `tv.alphonso.alphonso_eula`
 
-Telemetry -> com.miui.tv.analytics
+Telemetry -> `com.miui.tv.analytics`
 
-MiChannel -> com.mitv.tvhome.michannel
+MiChannel -> `com.mitv.tvhome.michannel`
 
-Partner -> com.xiaomi.android.tvsetup.partnercustomizer
+Partner -> `com.xiaomi.android.tvsetup.partnercustomizer`
 
-Xiaomi Services -> mitv.service
+Xiaomi Services -> `mitv.service`
 
-Link to what -> com.mitv.milinkservice
+Link to what -> `com.mitv.milinkservice`
 
-Xiaomi Telemetry -> com.xiaomi.mitv.res
+Xiaomi Telemetry -> `com.xiaomi.mitv.res`
 
-Download Crapware -> com.mitv.download.service
+Download Crapware -> `com.mitv.download.service`
 
-Auto-install crapware -> android.autoinstalls.config.xioami.mibox3
+Auto-install crapware -> `android.autoinstalls.config.xioami.mibox3`
 
 ---
 
 Useful Links
-[Principal Inspiration]()
+
+[Principal Inspiration](https://sites.google.com/site/tweakradje/devices/xiaomi-mi-tv-stick)
+
 Thakyou XDA Devs
