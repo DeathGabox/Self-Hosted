@@ -1,3 +1,6 @@
+Ultra Testing (May be unstable)
+Google Wallpaper -> `com.google.android.backdrop`
+
 After using adb for deleting, try to delete from android, something like "insert game here", and list what you can't, that apps you need to force with adb
 
 In your pc, you need to install adb, in arch for example(links lazy) or in windows here(Put Links lazy)
