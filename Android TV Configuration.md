@@ -11,6 +11,7 @@ Useful Info
 - Copy files from device to pc ->  `adb pull remote_file source destination`
 - Copy files from Notebook to device -> `adb push local_file source destination`
 - Start Shell -> `adb shell`
+- See What program working -> `adb shell ps -ef`
 
 ---
 Next is install following apps
@@ -105,6 +106,10 @@ Xiaomi Telemetry -> `com.xiaomi.mitv.res`
 Download Crapware -> `com.mitv.download.service`
 
 Auto-install crapware -> `android.autoinstalls.config.xioami.mibox3`
+
+---
+
+Remember to end with a big `adb reboot` to reboot and see if work as need to be
 
 ---
 
