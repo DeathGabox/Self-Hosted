@@ -120,4 +120,4 @@ Useful Links
 
 [Principal Inspiration](https://sites.google.com/site/tweakradje/devices/xiaomi-mi-tv-stick)
 
-Thakyou XDA Devs
+Thakyou [XDA Devs Guides](https://xdaforums.com/t/how-to-debloat-adb-the-ultimate-adb-debloating-thread-for-the-s20-u-series.4089089/)
