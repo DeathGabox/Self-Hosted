@@ -6,12 +6,17 @@
 - [WinSCP](https://winscp.net/eng/download.php)
 - [TightVNC](https://www.tightvnc.com/download.php)
 
-Fuentes Necesarias
+## Necessary Font
 [Hack Nerd Font Onedrive](https://duoccl0-my.sharepoint.com/:u:/g/personal/ga_zunigam_duocuc_cl/ETGOFo_ycvpItQnH4PewmbQB0CEr5d7r8hPh_48efEtefA?e=gAUlBX)
 
-Nota: Todos se instalan en `C:/` directamente
-Putty -> `C:/putty.exe`
-pscp -> `C:/pscp.exe`
-filezilla -> `C:\Program Files\FileZilla FTP Client\filezilla.exe`
-WinSCP -> `C:\Program Files (x86)\WinSCP\WinSCP.exe`
-TightVNC -> `C:\Program Files\TightVNC\tvnviewer.exe`
+## All Package (Old By Design)
+[Onedrive Link](https://duoccl0-my.sharepoint.com/:f:/g/personal/ga_zunigam_duocuc_cl/Eif8P141VxRIigBEcmuoysMBMYWtzUKAtgtfN3oWrNAoCw?e=MpMHi0)
+
+Nota: Todos se deberian instalar en `D:/` directamente
+- Putty -> `D:/putty/putty.exe`
+- pscp -> `D:/putty/pscp.exe`
+- Filezilla -> `D:/FileZilla FTP Client\filezilla.exe`
+- WinSCP -> `D:/WinSCP\WinSCP.exe`
+- TightVNC -> `D:/TightVNC\tvnviewer.exe`
+
+NOTA EXTRA: Deberia hacer un deploy rapidisimo con el Superputty de una pero en la ruta D:/
