@@ -12,11 +12,16 @@
 ## All Package (Old By Design)
 [Onedrive Link](https://duoccl0-my.sharepoint.com/:f:/g/personal/ga_zunigam_duocuc_cl/Eif8P141VxRIigBEcmuoysMBMYWtzUKAtgtfN3oWrNAoCw?e=MpMHi0)
 
-Nota: Todos se deberian instalar en `D:/` directamente
-- Putty -> `D:/putty/putty.exe`
-- pscp -> `D:/putty/pscp.exe`
-- Filezilla -> `D:/FileZilla FTP Client\filezilla.exe`
-- WinSCP -> `D:/WinSCP\WinSCP.exe`
-- TightVNC -> `D:/TightVNC\tvnviewer.exe`
+## Instalation Paths
+- Filezilla -> `D:\FileZilla FTP Client\`
+- Putty -> `D:\putty/`
+- SuperPutty -> `D:\SuperPuTTY\`
+- WinSCP -> `D:\WinSCP`
+- TightVNC -> `D:\TightVNC\`
 
-NOTA EXTRA: Deberia hacer un deploy rapidisimo con el Superputty de una pero en la ruta D:/
+Configurar Ruta a Superputty
+- Putty -> `D:\putty\putty.exe`
+- pscp -> `D:\putty\pscp.exe`
+- WinSCP -> `D:\WinSCP\WinSCP.exe`
+- Filezilla -> `D:\FileZilla FTP Client\filezilla.exe`
+- TightVNC -> `D:\TightVNC\tvnviewer.exe`
