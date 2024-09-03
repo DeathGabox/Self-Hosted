@@ -1,3 +1,4 @@
 # server-conf
-Well, arch and truenas &lt;3
-Based on [My personal Dotfile Config](https://github.com/DeathGabox/Dotfiles)
+Documentation Based on my Experience with HP MicroServer N40L
+
+Install based on my [Dotfile Config](https://github.com/DeathGabox/Dotfiles)
